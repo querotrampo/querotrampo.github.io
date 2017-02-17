@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="components/angular/angular.min.js"></script>
+	<script src="app.js"></script>
+	<script src="phone-list.component.js"></script>
+
+	<title>Trampos.io</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar navbar-fixed-top" id="mastnav">
+	<div class="container">
+		<div class="nav-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Querotrampo</a>
+		</div>
+		<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav" id="nav">
+				<li class="active"><a href="">HOME</a></li>
+				<li class="active"><a href="">QUERO TRABALHAR</a></li>
+				<li class="active"><a href="">QUERO EMPREGAR</a></li>
+				<li class="active"><a href="">SOBRE</a></li>
+				<li class="active"><a href="">CONTRIBUA</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid" id="banner_primary">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+				<div class="container">
+					<!--<div class="panel panel-default">
+					  <div class="panel-body">
+
+					  		
+					    <h1>Querotrampo.org</h1>
+					    <hr>
+			  			<p>Conheça o melhor portal de vagas de emprego de Atibaia e Região.</p>
+			  			<p>Se está sem trampo, e procura por um, nós temos a solução!</p>
+			  			<p>Busque por vagas atualizadas, sem nenhum custo.</p>
+			  			<p><a class="btn btn-primary btn-lg" href="#" role="button">Busque por um trampo já!</a></p>
+					  </div>
+
+					</div>-->
+					<phone-list></phone-list>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="fw-bl">
+	<div class="container" id="box1">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="box1-header">
+					<div class="panel">
+						<header class="panel-heading">
+							<h3>
+							<span class="glyphicon glyphicon-briefcase"></span>
+							<span>Trabalhador</span>
+							</h3>
+						</header>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="box1-content">
+					<p>Disfrute das seguintes condições:</p>
+
+					<ul>
+						<li>Sem registro.</li>
+						<li>Totalmente gratuito*.</li>
+						<li>Vagas sempre atualizadas.</li>
+						<li>Navegação rápida e fácil em poucos cliques.</li>
+					</ul>
+					<p id="bt"><a class="btn btn-inverted btn-lg" href="#" role="button">Busque por um trampo já!</a></p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div id="fw-gn">
+	<div class="container" id="box1">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="box1-header">
+					<div class="panel">
+						<header class="panel-heading">
+							<h3>
+							<span class="glyphicon glyphicon-briefcase"></span>
+							<span>Empregador</span>
+							</h3>
+						</header>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="box1-content">
+					<p>Disfrute das seguintes condições:</p>
+
+					<ul>
+						<li>Sem registro.</li>
+						<li>Totalmente gratuito*.</li>
+						<li>Publique a vaga e em pouco tempo haverá um candidato</li>
+						<li>Navegação rápida e fácil em poucos cliques a vaga já estará disponível.</li>
+					</ul>
+					<p id="bt"><a class="btn btn-inverted btn-lg" href="#" role="button">Cadastre um trampo já!</a></p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div id="fw-bk">
+	<div class="container">
+		<div class="row" id="box-counters">
+			<div class="col-md-4 counters">
+				<h3><span>8</span> Visitantes online</h3>
+			</div>
+			<div class="col-md-4 counters">
+				<h3><span>100</span> Vagas disponíveis</h3>
+			</div>
+			<div class="col-md-4 counters">
+				<h3><span>800</span> Visitas/dia</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<footer id="fw-wh">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4" id="subnav">
+				<h4>Links</h4>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">QUERO TRABALHAR</a></li>
+					<li><a href="">QUERO EMPREGAR</a></li>
+					<li><a href="">SOBRE</a></li>
+					<li><a href="">TERMOS DE UTILIZAÇÃO</a></li>
+					<li><a href="">DOE</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4" id="social-box">
+				<h4>Social</h4>
+
+				<div>
+					<img src="" data-src="holder.js/100%x180">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	
+
+<script type="text/javascript">
+	//javascript:(function(){var s=document.createElement("script");s.onload=function(){bootlint.showLintReportForCurrentDocument([]);};s.src="https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";document.body.appendChild(s)})();
+
+</script>
+<script type="text/javascript" src="components/jquery/jquery.js"></script>
+<script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

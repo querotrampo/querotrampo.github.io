@@ -1,0 +1,160 @@
+@charset "UTF-8";
+html, body {
+  height: 100%; }
+
+#mastnav {
+  border-bottom: 5px solid #00a3e0;
+  background-color: #fff; }
+
+#nav li a {
+  font-family: 'Titillium web' !important;
+  font-size: 1.2em; }
+
+/*
+ Bloco da landing-page
+*/
+#banner_primary {
+  margin-top: 55px;
+  background-image: url("../assets/img/mosaico.jpg");
+  height: 100%;
+  margin-bottom: 0; }
+  #banner_primary .panel-body h1, #banner_primary .panel-body p {
+    text-align: center;
+    font-family: 'Titillium web' !important; }
+  #banner_primary .panel-body p {
+    line-height: 15px; }
+
+.jumbotron {
+  background: none;
+  padding-top: 160px; }
+
+#fw-bl {
+  background-color: #00a3e0; }
+
+#fw-gn {
+  background-color: tomato; }
+
+#fw-bk {
+  background-color: #333; }
+
+#fw-wh {
+  background-color: #fff;
+  border-top: 5px solid #00a3e0; }
+
+#box1 {
+  padding-top: 20px;
+  padding-bottom: 50px; }
+
+.box1-header .panel {
+  background: none; }
+  .box1-header .panel .panel-heading h3 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Titillium web' !important;
+    font-size: 3em; }
+
+.box1-content p {
+  font-size: 1.5em;
+  color: #fff;
+  font-family: 'Titillium web' !important; }
+.box1-content ul li {
+  color: #fff;
+  font-family: 'Titillium web' !important;
+  font-size: 1.3em; }
+.box1-content #bt {
+  margin-top: 50px;
+  text-align: center; }
+  .box1-content #bt .btn-inverted {
+    background-color: #fff;
+    box-shadow: 0px 3px 0px #007ead; }
+.box1-content #bt a:hover {
+  color: #007ead; }
+
+#box-counters {
+  padding-bottom: 10px; }
+  #box-counters h3 {
+    color: #fff;
+    font-family: 'Titillium web' !important;
+    text-align: center; }
+    #box-counters h3 span {
+      color: #00a3e0; }
+
+/*
+  Fim do Bloco da landing-page
+*/
+/*
+ Bloco da "Quero trabalhar"
+*/
+.panel-content {
+  margin-bottom: 0 !important; }
+
+#inner-content {
+  margin-top: 55px; }
+
+#heading {
+  padding: 25px 30px  10px 30px; }
+  #heading span {
+    font-family: 'Titillium web' !important;
+    font-size: 1.3em; }
+
+.avatar-wrap {
+  width: 28px;
+  height: 28px;
+  float: left; }
+  .avatar-wrap .avatar {
+    width: 28px;
+    height: 28px;
+    background-color: tomato;
+    color: #fff;
+    border-radius: 100%; }
+    .avatar-wrap .avatar p {
+      text-align: center;
+      vertical-align: middle;
+      line-height: 2; }
+
+.name-wrap,
+.title-wrap {
+  float: left; }
+  .name-wrap h4,
+  .title-wrap h4 {
+    font-family: 'Titillium web' !important;
+    padding: 0;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 15px;
+    margin-right: 30px; }
+
+.content-wrap {
+  float: left;
+  width: 70%;
+  overflow: hidden; }
+  .content-wrap p {
+    font-family: 'Titillium web' !important;
+    padding: 0;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 15px;
+    margin-right: 30px;
+    width: 130%; }
+
+/*
+ Fim do Bloco da "Quero trabalhar"
+*/
+/*
+ in├¡cio do Bloco da "Cadastra uma vaga"
+*/
+#top-heading {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  #top-heading h2 {
+    text-align: center;
+    font-family: 'Titillium web' !important; }
+
+.form-control {
+  margin-bottom: 15px; }
+
+/*
+ Fim do Bloco da "Cadastra uma vaga"
+*/
+#subnav ul {
+  list-style: none; }
